@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>StickyNotes</title>
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <!-- ロゴ -->
+    <h1>StickyNotes</h1>
+    <!-- 付箋作成ボタン -->
+    <nav><span id="create" class="material-icons-outlined">post_add</span><input type="button" value="付箋の作成" id="new" class="husen-button"></nav>
+  </header>
+
+  <!-- ノート -->
+  <div class="note" id="note">
+    <div class="note-content">
+      <span class="material-icons-outlined">close</span><input type="button" id="close">
+      <textarea id="notearea"></textarea>
+    </div>
+  </div>
+
+  <!-- フッター -->
+  <footer><p>©︎ 2022 Kohei Kanazawa</p></footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+  <!-- Firebase -->
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.8/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyADWQvwRY6mib1cg8CddtQkwzCWOdfO1y4",
+      authDomain: "stickynotes-e8a44.firebaseapp.com",
+      databaseURL: "https://stickynotes-e8a44-default-rtdb.firebaseio.com",
+      projectId: "stickynotes-e8a44",
+      storageBucket: "stickynotes-e8a44.appspot.com",
+      messagingSenderId: "192965283428",
+      appId: "1:192965283428:web:6da66a67f79b0dd7e59971"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+  </script>
+</body>
+</html>
