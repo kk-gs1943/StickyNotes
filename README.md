@@ -16,6 +16,7 @@
 * HTML
 * CSS
 * JavaScript
+* Firebase
 
 ## 文責
 
