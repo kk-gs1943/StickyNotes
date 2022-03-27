@@ -1,21 +1,26 @@
-MIT License
+![StickyNotes](https://user-images.githubusercontent.com/84620235/160274079-c150b109-1dad-412b-95ff-c2727cdda7b3.png)
 
-Copyright (c) 2022 Kohei Kanazawa
+# StickyNotes
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+* メモ/付箋作成アプリです。
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## 使い方
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+* 付箋作成ボタンで付箋を作成。
+* 付箋左側で削除と色変更。
+* ノートエリアにテキストを記述。
+* ノート右上の「X」ボタンでノートを削除。
+
+## 使用技術
+
+* HTML
+* CSS
+* JavaScript
+
+## 文責
+
+* Kohei Kanazawa
+
+## ライセンス
+
+This software is released under the MIT License, see LICENSE.txt.
